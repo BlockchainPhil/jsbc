@@ -1,1 +1,32 @@
-hello index
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSBC - POC</title>
+    <script src="jquery.min.js"></script>
+    <script src="latest.js"></script>
+    <script src="sha256.js"></script>
+</head>
+<body>
+<h1 class="logo"><span>JSBC - POC</span></h1>
+<h2>Experiment #2.</h2>
+<h5><a href="generate.html">Need a Key Pair?</a></h5>
+
+<h3 id="title">Start a room</h3>
+<form id="createRoom">
+    <input id="sessionInput" placeholder="1">
+    <button type="submit">Create it!</button>
+</form>
+<p id="subTitle"></p>
+
+<label for="PublicKeyInput">Public Key:</label><input id="PublicKeyInput" placeholder="baa0e82e7e069313bd13537e24fc50ee9c367974bd2ee372c0d74929e7ae7348f3146f5e943dc6cb90b38945c4a93cd3a88c91bf31af55571ae38a48de2f0be7">
+
+<hr>
+<div id="remotes"></div>
+
+<script>
+    var hash = CryptoJS.SHA256("abc");
+</script>
+
+<script src="magic.js"></script>
+</body>
+</html>
