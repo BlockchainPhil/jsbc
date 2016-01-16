@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BlockchainPhil/jsbc/issues"
   },
-  "homepage": "https://github.com/BlockchainPhil/jsbc#readme"
+  "homepage": "https://github.com/BlockchainPhil/jsbc#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
