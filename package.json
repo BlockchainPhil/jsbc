@@ -1,0 +1,19 @@
+{
+  "name": "jsbc",
+  "version": "1.0.0",
+  "description": "------",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockchainPhil/jsbc.git"
+  },
+  "author": "BlockchainPhil",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BlockchainPhil/jsbc/issues"
+  },
+  "homepage": "https://github.com/BlockchainPhil/jsbc#readme"
+}
